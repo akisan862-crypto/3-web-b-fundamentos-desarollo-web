@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(71, 85, 41);
+    color: aliceblue;
+}
+
+
+.Titulo{
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-size: 2rem;
+  font-style: normal;
+}
+/* https://fonts.google.com/selection/embed */
+
+#pa{
+    background-color: rgb(61, 81, 27);
+    text-align: center;
+}
+
+.btn-box{
+    text-align: center;
+}
+
+#portada{
+    text-align: center;
+    margin-top: 5%;
+}
+
+#portada img{
+    border: 20px solid rgb(197, 155, 82);
+    padding: 2%;
+}
+
+/* Card Styles */
+.user-card{
+    width: 40%;
+    background-color: darkolivegreen;
+    text-align: center;
+    border-radius: 5%;
+    margin-top: 5%;
+    padding: 2%;
+}
+
+.user-card-info img{
+    border-radius: 50%;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-size: 2rem;
+}
