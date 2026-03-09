@@ -1,0 +1,276 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(102, 35, 29);
+    color: rgb(240, 214, 205);
+}
+.fondo-movible{
+   position: sticky;
+   z-index: -1;
+   margin-top: 95px;
+
+}
+.TITTLE{
+     font-family: "Changa One", sans-serif;
+     font-weight: 400;
+    font-style: italic;
+    text-align: center;
+    margin-top: 5%;
+    position: relative;
+}
+.div-tarjetas{
+    margin-top: 5%;
+    border-radius: 2px;
+    border: solid 1px rgb(59, 41, 7);
+    text-align: center;
+    padding: 10%;
+    position: fixed;
+    width: 100%;
+}
+.div-tarjetas p{
+    color: aliceblue;
+}
+.div-tarjetas h2{
+    color: aliceblue;
+}
+.div-general-1{
+    text-align: left;
+    border: 1px solid rgb(134, 62, 62);
+    border-radius: 5%;
+    width: 300px;
+    height: 300px;
+    background-color: rgba(108, 24, 18, 0.564);
+    margin-bottom: 500px;
+   
+}
+#fresa-tittle{
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#Fresa{
+    position: absolute;
+    margin-top: -70px;
+    margin-left: 60px;
+    z-index: 2;
+}
+
+.div-general-1 p{
+    position:absolute;
+    width: 250px;
+}
+#fresa-tittle {
+    padding-left: 2%;
+    padding-right: 2%;
+    border: 2px solid rgba(255, 255, 255, 0.253);
+    border-radius: 30%;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 70px;
+    z-index: 3;
+    background-color: transparent; /* Corregido de 'none' */
+    font-size: 20px;
+    /* Esto hace que el hover sea suave */
+    transition: all 0.3s ease; 
+}
+
+#fresa-tittle:hover {
+    background-color: rgba(255, 0, 0, 0.474); /* Un toque rojo para la fresa */
+    border: 1px solid rgba(214, 208, 159, 0.8); 
+    border-radius: 5%;/* El borde se ilumina un poco */
+}
+
+.text-fresa{
+    margin-top: 155px;
+    margin-left: 20px;
+      font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 13px;
+}
+
+
+
+.div-general-2{
+    text-align: left;
+    border: 1px solid rgb(26, 32, 97);
+    border-radius: 5%;
+    width: 300px;
+    height: 300px;
+    background-color: rgba(60, 54, 174, 0.564);
+    margin-left: 25%;
+    margin-top: -55%;
+    
+   
+   
+}
+#Azul-tittle{
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#Azul{
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 60px;
+    z-index: 2;
+}
+.div-general-2 p{
+    position:absolute;
+    width: 250px;
+}
+#Azul-tittle {
+    padding-left: 2%;
+    padding-right: 2%;
+    border: 2px solid rgba(255, 255, 255, 0.253);
+    border-radius: 30%;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 45px;
+    z-index: 3;
+    background-color: transparent; /* Corregido de 'none' */
+    font-size: 20px;
+    /* Esto hace que el hover sea suave */
+    transition: all 0.3s ease; 
+}
+
+#Azul-tittle:hover {
+    background-color: rgba(43, 19, 166, 0.543); /* Un toque rojo para la fresa */
+    border: 1px solid rgba(214, 208, 159, 0.8); 
+    border-radius: 5%;/* El borde se ilumina un poco */
+}
+
+.text-Azul{
+    margin-top: 155px;
+    margin-left: 20px;
+      font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 13px;
+}
+
+.div-general-3{
+    text-align: left;
+    border: 1px solid rgb(57, 13, 33);
+    border-radius: 5%;
+    width: 300px;
+    height: 300px;
+    background-color: rgba(133, 13, 71, 0.564);
+    margin-left: 50%;
+    margin-top: -18%;
+    
+   
+   
+}
+#Fran-tittle{
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#Fran{
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 40px;
+    z-index: 2;
+}
+.div-general-3 p{
+    position:absolute;
+    width: 250px;
+}
+#Fran-tittle {
+    padding-left: 2%;
+    padding-right: 2%;
+    border: 2px solid rgba(255, 255, 255, 0.253);
+    border-radius: 30%;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 35px;
+    z-index: 3;
+    background-color: transparent; /* Corregido de 'none' */
+    font-size: 20px;
+    /* Esto hace que el hover sea suave */
+    transition: all 0.3s ease; 
+}
+
+#Fran-tittle:hover {
+    background-color: rgba(202, 12, 98, 0.73); /* Un toque rojo para la fresa */
+    border: 1px solid rgba(249, 248, 186, 0.8); 
+    border-radius: 5%;/* El borde se ilumina un poco */
+}
+
+.text-Fran{
+    margin-top: 155px;
+    margin-left: 20px;
+      font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 13px;
+}
+
+.div-general-4{
+    text-align: left;
+    border: 1px solid rgb(59, 7, 84);
+    border-radius: 5%;
+    width: 300px;
+    height: 300px;
+    background-color: rgba(84, 20, 118, 0.564);
+    margin-left: 75%;
+    margin-top: -22%;
+    
+   
+   
+}
+#Mora-tittle{
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#Mora{
+    position: absolute;
+    margin-top: -80px;
+    margin-left: 40px;
+    z-index: 2;
+}
+.div-general-4 p{
+    position:absolute;
+    width: 250px;
+}
+#Mora-tittle {
+    padding-left: 2%;
+    padding-right: 2%;
+    border: 2px solid rgba(255, 255, 255, 0.253);
+    border-radius: 30%;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 75px;
+    z-index: 3;
+    background-color: transparent; /* Corregido de 'none' */
+    font-size: 20px;
+    /* Esto hace que el hover sea suave */
+    transition: all 0.3s ease; 
+}
+
+#Mora-tittle:hover {
+    background-color: rgba(61, 16, 145, 0.764); /* Un toque rojo para la fresa */
+    border: 1px solid rgba(249, 248, 186, 0.8); 
+    border-radius: 5%;/* El borde se ilumina un poco */
+}
+
+.text-Mora{
+    margin-top: 155px;
+    margin-left: 20px;
+      font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 13px;
+}
+
