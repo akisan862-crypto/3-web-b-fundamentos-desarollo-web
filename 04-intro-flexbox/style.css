@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+        background-color: rgb(185, 225, 134);
+ }
+h1{
+     font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;text-align: center;
+}
+.container{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center; 
+    align-items: flex-start;
+    align-content: center;
+    gap: 20px 30px; 
+
+
+    background-color:rgba(230, 209, 93, 0.628);
+    border: 2px solid black;
+    width: 700px;
+    height: 500px;
+    padding: 10px;
+    margin-left: 600px;
+}
+.box{
+    width: 40%;
+    height: 100px; 
+    background-color: rgb(222, 167, 58);
+    border-radius: 5%;
+    border: solid 2px rgb(102, 69, 23);
+    /*margin: 10px;*/
+    
+}
