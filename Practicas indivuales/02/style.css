@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+     box-sizing: border-box;
+}
+body{
+    background-color: rgb(255, 252, 249);
+}
+.container{
+    display: flex;
+    justify-content: center;
+   /* border: 1px solid rgb(221, 69, 69);*/
+    padding: 2%;
+    
+}
+.text-sabritas{
+    padding: 2%;
+   /* border: 1px solid rgb(60, 192, 46);*/
+    width: 600px;
+    height: 200px;
+    align-self: center;
+    z-index: 1;
+    text-align: left;
+    background-color: rgba(243, 240, 115, 0.168);
+    border-radius: 5%;
+}
+.img-sabritas{
+    position: relative;
+   /* border: 1px solid rgb(24, 9, 195);*/
+    z-index: 0;
+}
+.img-papitas{
+    z-index: 2;
+    position: absolute;
+ /*    border: 1px solid rgb(24, 9, 195);*/
+   margin-top: 260px;
+   margin-left: 200px;
+
+}

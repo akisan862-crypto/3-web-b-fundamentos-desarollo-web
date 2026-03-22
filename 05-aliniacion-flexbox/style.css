@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+body{
+    background-color: rgb(225, 225, 239);
+         background-size: cover ;
+           
+         
+}
+header{
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+     border: 2px solid rgb(255, 255, 255);
+     max-width: 8000px;
+     box-shadow: 3px 3px 5px rgba(40, 124, 145, 0.37);
+     background-color: rgba(214, 227, 240, 0.974);
+     color: aliceblue;
+}
+.box-left{
+    display: flex;
+    /*    border: 2px solid black;*/
+    gap: 10%;
+    width: 300px;
+     justify-content: space-between;
+       align-items: center;
+}
+nav ul{
+   
+     list-style: none;
+    display: flex;
+     gap: 15%;
+      /*   border: 2px solid black;*/
+      width: 200px;
+}
+nav a{
+   color: black;
+   font-size: 20px;
+}
+.box-right{
+    width: 600px;
+    height: 40px;
+     display: flex;
+      justify-content: space-between;
+    /*  border: 2px solid black;*/
+      align-items: center;
+}
+.box-right a{
+    
+    font-size: 20px;
+}
+.buttons-right{
+      list-style: none;
+    display: flex;
+     gap: 30px;
+        /* border: 2px solid black;*/
+      width: 300px;
+}
+#s-right{
+       color: black;
+}
+.btn-log{
+    padding: 8px 16px;
+    border-radius: 20px;
+    border: 2px solid rgb(255, 255, 255);
+    color: black;
+}
+.btn-unt{
+     padding: 8px 16px;
+    border-radius: 20px;
+    border: 2px solid rgb(34, 36, 83);
+    background-color: rgb(54, 88, 121);
+    color: aliceblue;
+}
+
+main{
+    display: flex;
+}
+.main-start{
+    display: flex;
+    flex-direction: column;/*Cambio de eje*/
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+
+    height: 500px;
+    width: 30%;
+    background-image: url(https://crazyminds.es/wp-content/uploads/IMG_6336.jpg);
+    color: aliceblue;
+    background-size: cover 
+}
+.main-end{
+    flex-grow: 1;
+    background-color: rgba(31, 47, 70, 0.712);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+     justify-content: center;
+     padding: 2%;
+    
+}
+.buttons-right-maid{
+    display: flex;
+    gap: 10px;
+
+}
+.btn-buy{
+    color: aliceblue;
+    border: 1px solid white;
+    padding: 8px;
+    border-radius: 10%;
+    background-color: rgba(48, 65, 194, 0.278);
+   
+}
+.btn-listen{
+    color: aliceblue;
+    border: 1px solid white;
+    padding: 8px;
+    border-radius: 10%;
+    background-color: rgba(160, 157, 179, 0.225);
+   
+}
+.places-w {
+    display: flex;
+    flex-wrap: wrap; /* Esta es la magia que permite múltiples líneas */
+    gap: 15px; 
+    justify-content: center;
+}
+
+.places {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+  
+    width: calc(33.333% - 10px); 
+}
+
+.places img {
+    border: 5px solid rgb(255, 255, 255);
+    width: 200px;
+    height: 200px;
+    object-fit: cover; /*evitar deformaciones*/
+}
+
